@@ -21,7 +21,7 @@ const Id = () => {
   const getArticleById = async () => {
     try {
       const res = await axios.get(
-        `https://news-api-speed.vercel.app/api/get-data/${id}`
+        `https://api-news-dot-school-version2.vercel.app/api/get-data/${id}`
       );
       if (res.status === 200) {
         setArticle(res.data.article);

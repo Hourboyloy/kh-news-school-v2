@@ -34,7 +34,7 @@ const EntertainmentPage = () => {
     setLoading(true);
     try {
       const res = await axios.post(
-        `https://news-api-speed.vercel.app/api/categories/${startIndex}/${endIndex}`,
+        `https://api-news-dot-school-version2.vercel.app/api/categories/${startIndex}/${endIndex}`,
         { categoryname: "កម្សាន្ត" }
       );
       if (res.status === 200) {

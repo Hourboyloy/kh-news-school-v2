@@ -23,7 +23,7 @@ const SearchComponent = ({ toggleSideMenu, isSideMenu }) => {
 
     try {
       const res = await axios.post(
-        "https://news-api-speed.vercel.app/search-news",
+        "https://api-news-dot-school-version2.vercel.app/search-news",
         { searchInput: searchTerm }
       );
       if (res.status === 200) {

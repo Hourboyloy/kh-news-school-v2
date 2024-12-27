@@ -77,7 +77,7 @@ export default function AuthForm({ closeModal }) {
     e.preventDefault();
     setLoading(true);
 
-    const url = "https://api-school-amber.vercel.app/register";
+    const url = "https://api-news-dot-school-version2.vercel.app/register";
     const payload = { username, email, password };
 
     try {
@@ -114,7 +114,7 @@ export default function AuthForm({ closeModal }) {
     e.preventDefault();
     setLoading(true);
 
-    const url = "https://api-school-amber.vercel.app/login";
+    const url = "https://api-news-dot-school-version2.vercel.app/login";
     const payload = { email, password };
 
     try {

@@ -97,7 +97,7 @@ export const GlobalProvider = ({ children }) => {
       }
       // Fetch fresh data from the API
       const res = await axios.get(
-        "https://news-api-speed.vercel.app/api/get-length-categories-popular-news"
+        "https://api-news-dot-school-version2.vercel.app/api/get-length-categories-popular-news"
       );
 
       if (res.status == 200) {
@@ -155,7 +155,7 @@ export const GlobalProvider = ({ children }) => {
 
       // Fetch updated data from the server
       const res = await axios.get(
-        "https://news-api-speed.vercel.app/api/categories-home"
+        "https://api-news-dot-school-version2.vercel.app/api/categories-home"
       );
 
       if (res.status === 200) {
